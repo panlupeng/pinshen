@@ -1,0 +1,226 @@
+.mobile {
+    width: 100%;
+    height: 0.39rem;
+    background: rgba(109, 255, 48, 0) /*头部颜色*/;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 100;
+}
+.mobile img{
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+.gai{
+    width: 7.5rem;
+    height: 13.34rem;
+    background-color: #000000;
+    opacity: 0.5;
+}
+.back {
+    width: 7.5rem;
+    height: 13.34rem;
+    background: #2a333c;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+.gai img{
+    width: 100%;
+}
+.btn-zhuce{
+
+    background-color: #ffb20c;
+    position: absolute;
+    top:0.66rem;
+    left: 5.49rem;
+    border-radius:0.4rem;
+    font-size: 0.28rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0rem;
+    color: #fefefe;
+    padding: 0.05rem 0.5rem;
+}
+.bac-three{
+    width: 4.38rem;
+    height: 3.62rem;
+    background-color: #ffffff;
+    border-radius: 0.1rem;
+    opacity: 0.42;
+    position: absolute;
+    top:4.34rem;
+    left: 1.57rem;
+    border-radius:0.4rem;
+}
+.bac-two{
+    width: 5.07rem;
+    height: 3.48rem;
+    background-color: #ffffff;
+    opacity: 0.4;
+    position: absolute;
+    top:4.32rem;
+    left: 1.22rem;
+    border-radius:0.4rem;
+}
+.bac-one{
+    width: 5.61rem;
+    height: 3.46rem;
+    background-color: #ffffff;
+    position: absolute;
+    top:4.18rem;
+    left: 0.95rem;
+    border-radius:0.4rem;
+}
+.one-first{
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: #ffb20c;
+    position: absolute;
+    top:0.22rem;
+    left: 0.8rem;
+    border-radius:50%;
+}
+.one-first img{
+    width: 0.5rem;
+    height: 0.5rem;
+    position: absolute;
+    top:0;
+    left: 0;
+}
+.one-second{
+    width: 3.25rem;
+    height: 0.47rem;
+    border: solid 0.02rem #ffb20c;
+    position: absolute;
+    top:0.24rem;
+    left: 1.56rem;border-radius: 0.3rem;
+}
+.one-second input{
+    width: 3rem;
+    height: 0.4rem;
+    border:none;
+    position: absolute;
+    top:0;
+    left: 0;border-radius: 0.3rem;
+}
+.one-third{
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: #ffb20c;
+    position: absolute;
+    top:1.05rem;
+    left: 0.8rem;
+    border-radius:50%;
+}
+.one-third img{
+    width: 0.5rem;
+    height: 0.5rem;
+    position: absolute;
+    top:0;
+    left: 0;
+}
+.one-four{
+    width: 3.25rem;
+    height: 0.47rem;
+    border: solid 0.02rem #ffb20c;
+    position: absolute;
+    top:1.05rem;
+    left: 1.56rem;border-radius: 0.3rem;
+}
+.one-four input{
+    width: 3rem;
+    height: 0.4rem;
+    border:none;
+    position: absolute;
+    top:0;
+    left: 0;border-radius: 0.3rem;
+}
+.one-five{
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: #ffb20c;
+    position: absolute;
+    top:1.23rem;
+    left: 0.8rem;
+    border-radius:50%;
+}
+.one-five img{
+    width: 0.5rem;
+    height: 0.5rem;
+    position: absolute;
+    top:0;
+    left: 0;
+}
+.one-six{
+    width: 3.25rem;
+    height: 0.47rem;
+    border: solid 0.02rem #ffb20c;
+    position: absolute;
+    top:1.23rem;
+    left: 1.56rem;border-radius: 0.3rem;
+}
+.one-six input {
+    width: 3rem;
+    height: 0.4rem;
+    border: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 0.3rem;
+}
+.one-five{
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: #ffb20c;
+    position: absolute;
+    top:1.88rem;
+    left: 0.8rem;
+    border-radius:50%;
+}
+.one-five img{
+    width: 0.5rem;
+    height: 0.5rem;
+    position: absolute;
+    top:0;
+    left: 0;
+}
+.one-six{
+    width: 3.25rem;
+    height: 0.47rem;
+    border: solid 0.02rem #ffb20c;
+    position: absolute;
+    top:1.9rem;
+    left: 1.56rem;border-radius: 0.3rem;
+}
+.one-six input {
+    width: 3rem;
+    height: 0.4rem;
+    border: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 0.3rem;
+}
+
+
+.btn-login {
+
+    background-color: #ffb20c;
+    position: absolute;
+    top: 2.61rem;
+    left: 1.52rem;
+    border-radius: 0.4rem;
+    font-size: 0.28rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #ffffff;
+    padding:0.07rem 1rem;
+}

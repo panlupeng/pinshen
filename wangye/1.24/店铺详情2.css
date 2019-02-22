@@ -1,0 +1,597 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mobile {
+    width: 100%;
+    height: 0.39rem;
+    background: rgba(109, 255, 48, 0) /*头部颜色*/;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 100;
+}
+.mobile img{
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+.header {
+    width: 100%;
+    height: 2.28rem;
+    background: #ffb02c /*头部颜色*/;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+.header-middle {
+    width: 5.08rem;
+    height: 0.4rem;
+    background-color: rgb(255, 255, 255);
+    border-radius:0.21rem;
+    margin: 0.69rem auto 0.26rem;
+    box-sizing: border-box;
+    position: relative;
+}
+.header-number{
+    width: 0.4rem;
+    height: 0.4rem;
+    background-color:white;
+    border-radius: 50%;
+    position: absolute;
+    top:0.69rem;
+    left: 6.22rem;
+}
+.header-number img{
+    width: 0.4rem;
+    height: 0.4rem;
+    background-color:white;
+    border-radius: 50%;
+    position: absolute;
+    top:0;color: #ffbd16;
+    left: 0;
+}
+.header-return{
+    width: 0.4rem;
+    height: 0.4rem;
+    background-color:white;
+    border-radius: 50%;
+    position: absolute;
+    top:0.69rem;
+    right: 0.39rem;
+}
+
+
+.header-return img{
+    width:0.4rem;
+    height: 0.4rem;
+    position: absolute;color: #ffbd16;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+.header-more{
+    width: 0.4rem;
+    height: 0.4rem;
+    background-color:white;
+    border-radius: 50%;
+    position: absolute;
+    top:0.69rem;
+    left: 0.24rem;
+}
+
+
+.header-more img{
+    width:0.4rem;
+    height: 0.4rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+.person-special{
+
+    width: 7.02rem;
+    height: 1.5rem;
+    background-color: #ffffff;
+    box-shadow: 0rem 0.05rem 0.15rem 0rem
+    rgba(0, 0, 0, 0.13);
+    border-radius: 0.1rem;
+    position: absolute;
+    top:1.64rem;
+    left: 0.24rem;
+    box-sizing: border-box;
+    z-index: 10;
+}
+.header-title{
+    /* width: 1.55rem;
+     height: 0.37rem;*/
+    font-family: 微软雅黑;
+    font-size: 0.38rem;
+    /*letter-spacing: 0.02rem;*/
+    color: #ffffff;position: absolute;
+    top: 0.68rem;
+    left: 2.98rem;
+}
+.person-one{
+    width: 1.05rem;
+    height: 1.05rem;
+    background-color: #f5ff78;position: absolute;
+    top: 0.22rem;
+    left: 0.23rem;box-sizing: border-box;padding-bottom:0;
+}
+.person-one img {
+    height: 100%;
+    width: 1.05rem;
+    position: absolute;
+}
+.person-two{
+    /* width: 2.5rem;
+     height: 0.22rem;*/
+    font-size:0.24rem;
+    background: rgba(15, 255, 255, 0);
+    color: #000000;
+    opacity: 0.6; position: absolute;
+    top:0.20rem;
+    left: 1.52rem;box-sizing: border-box;display: inline-block;}
+
+
+.person-connect{
+    width: 3.84rem;
+    height: 0.08rem;
+    opacity: 0.6;position: absolute;
+    top:0.7rem;
+    left: 1.52rem;
+}
+.person-connect img{
+    width: auto;
+    height: 0.08rem;
+    position: absolute;
+
+}
+.person-add{
+    /*width: 3.4rem;
+    height: 0.17rem;*/
+    font-family:微软雅黑;
+    font-size:0.17rem;
+    color: #000000;position: absolute;
+    top:0.47rem;
+    left: 1.52rem;
+    opacity: 0.6;
+}
+.person-three{
+    width: 0.21rem;
+    height: 0.17rem;position: absolute;
+    top:0.3rem;
+    left: 4.5rem;
+}
+.person-three img{
+    width: 0.21rem;
+    height: 0.17rem; position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+.person-four{
+    width: 0.81rem;
+    height: 0.21rem;
+    font-family: PingFang-SC-Bold;
+    font-size: 0.22rem;
+    font-weight: normal;
+    font-stretch: normal;
+    color: #000000;
+    opacity: 0.6;display: inline-block;
+}
+.dailybig-two4{
+    width: 2.03rem;
+    height: 0.22rem;
+    font-size: 0.22rem;
+    letter-spacing: 0.01rem;opacity: 0.6;
+    color: #000000;
+    position: absolute;
+    top: 0.17rem;
+    left: 4.74rem;
+}
+.dailybig-two4 img{
+    width: 100%;
+}
+.sign-name{
+    /*width: 4.3rem;
+    height: 0.24rem;*/
+    font-size: 0.22rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: -0.018rem;position: absolute;
+    top: 0.78rem;
+    left: 1.52rem;
+    color: #000000;
+    opacity: 0.6;
+}
+.sign-name2{
+    /* width: 4.3rem;
+     height: 0.24rem;*/
+    font-size: 0.22rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: -0.018rem;position: absolute;
+    top: 1.06rem;
+    left: 1.52rem;
+    color: #000000;
+    opacity: 0.6;
+}
+.small-phone{
+    width: 0.28rem;
+    height: 0.18rem;
+    opacity: 0.6;
+    position: absolute;
+    top: 1.16rem;
+    left: 4.56rem;
+}
+.small-phone img{
+    width: 100%;
+    opacity: 0.6;position: absolute;
+
+}
+.phone-num{
+    width: 1.48rem;
+    height: 0.18rem;
+    font-size: 0.22rem;
+    letter-spacing: -0.018rem;
+    color: #000000;
+    opacity: 0.6; position: absolute;
+    top: 1.01rem;
+    left: 2.01rem;
+}
+.three-main{
+    width: 7.5rem;
+    height: 1.2rem;
+    background: rgba(15, 255, 255, 0); position: absolute;
+    top: 3.4rem;
+}
+.main-one{
+    /* width: 1.22rem;
+     height: 0.41rem;*/
+    background-color: #ff296f;
+    border-radius: 0.2rem;
+    position: absolute;
+    top: 0.37rem;
+    left: 1.21rem;
+    font-size: 0.26rem;
+    letter-spacing: 0.01rem;
+    color: #ffffff;
+    /*padding-left: 0.35rem;padding-top: 0.02rem;*/padding: 0.02rem 0.35rem;
+}
+.main-two{
+    /* width: 1.22rem;
+     height: 0.41rem;*/
+    background-color: #ffb20c;
+    border-radius: 0.2rem;
+    position: absolute;
+    top: 0.37rem;
+    left: 3.15rem;
+    font-size: 0.26rem;
+    letter-spacing: 0.01rem;
+    color: #ffffff;
+    /* padding-left: 0.35rem;padding-top: 0.02rem; */  padding: 0.02rem 0.35rem;   opacity: 0.6;
+}
+.main-three{
+    /*width: 1.22rem;
+    height: 0.41rem;*/
+    background-color: #ffb20c;
+    border-radius: 0.2rem;
+    position: absolute;
+    top: 0.37rem;
+    left: 5.09rem;
+    font-size: 0.26rem;
+    letter-spacing: 0.01rem;
+    color: #ffffff;
+    padding: 0.02rem 0.35rem;      opacity: 0.6;
+}
+.hui-back{
+    width: 7.5rem;
+    height: 9.41rem;
+    background: rgba(96, 87, 81, 0.2);
+    position: absolute;
+    top: 4.46rem;
+}
+.left-1{
+    /* width: 1.05rem;
+     height: 0.44rem;*/
+    background-color: #fdbb2d;position: absolute;border-radius: 0.2rem;
+    top: 4.85rem;
+    left: 0.24rem;font-size: 0.22rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.02rem;
+    color: #ffffff;
+    /*padding-left: 0.28rem;
+    padding-top: 0.05rem;*/
+    padding: 0.05rem 0.28rem;
+}
+.left-2{
+
+    border: #ffb02c solid 0.05rem;
+    position: absolute;
+    border-radius: 0.2rem;
+    top: 5.62rem;
+    left: 0.24rem;
+    font-size: 0.22rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.02rem;
+    color: #ffffff;
+    padding: 0.02rem 0.24rem;
+    box-sizing: border-box;
+}
+.left-3{
+
+    border: #ffb02c solid 0.05rem;
+    position: absolute;
+    border-radius: 0.2rem;
+    top: 6.39rem;
+    left: 0.24rem;
+    font-size: 0.22rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.02rem;
+    color: #ffffff;
+    padding: 0.02rem 0.24rem;
+    box-sizing: border-box;
+}
+.left-4{
+
+    border: #ffb02c solid 0.05rem;
+    position: absolute;
+    border-radius: 0.2rem;
+    top: 7.16rem;
+    left: 0.24rem;
+    font-size: 0.22rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.02rem;
+    color: #ffffff;
+    padding: 0.02rem 0.24rem;
+    box-sizing: border-box;
+}
+.left-5{
+
+    border: #ffb02c solid 0.05rem;
+    position: absolute;
+    border-radius: 0.2rem;
+    top: 7.93rem;
+    left: 0.24rem;
+    font-size: 0.22rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.02rem;
+    color: #ffffff;
+    padding: 0.02rem 0.24rem;
+    box-sizing: border-box;
+}
+.left-6{
+
+    border: #ffb02c solid 0.05rem;
+    position: absolute;
+    border-radius: 0.2rem;
+    top: 8.7rem;
+    left: 0.24rem;
+    font-size: 0.22rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.02rem;
+    color: #ffffff;
+    padding: 0.02rem 0.24rem;
+    box-sizing: border-box;
+}
+.left-7{
+
+    border: #ffb02c solid 0.05rem;
+    position: absolute;
+    border-radius: 0.2rem;
+    top: 9.47rem;
+    left: 0.24rem;
+    font-size: 0.22rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.02rem;
+    color: #ffffff;
+    padding: 0.02rem 0.24rem;
+    box-sizing: border-box;
+}
+.left-8{
+
+    border: #ffb02c solid 0.05rem;
+    position: absolute;
+    border-radius: 0.2rem;
+    top: 10.24rem;
+    left: 0.24rem;
+    font-size: 0.22rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.02rem;
+    color: #ffffff;
+    padding: 0.02rem 0.24rem;
+    box-sizing: border-box;
+}
+.right-1{
+    position: absolute;;
+    width: 5.67rem;
+    height: 1.55rem;
+    background-color: #ffffff;
+    border-radius: 0.1rem;
+    top: 4.78rem;
+    left: 1.58rem;font-size: 0.22rem;
+    letter-spacing: 0.02rem;
+    color: #ffffff;
+    padding-left: 0.28rem;
+    padding-top: 0.05rem;
+}
+.right-2{
+    position: absolute;;
+    width: 5.67rem;
+    height: 1.55rem;
+    background-color: #ffffff;
+    border-radius: 0.1rem;
+    top: 6.57rem;
+    left: 1.58rem;font-size: 0.22rem;
+    letter-spacing: 0.02rem;
+    color: #ffffff;
+    padding-left: 0.28rem;
+    padding-top: 0.05rem;
+}
+.right-3{
+    position: absolute;;
+    width: 5.67rem;
+    height: 1.55rem;
+    background-color: #ffffff;
+    border-radius: 0.1rem;
+    top: 8.36rem;
+    left: 1.58rem;font-size: 0.22rem;
+    letter-spacing: 0.02rem;
+    color: #ffffff;
+    padding-left: 0.28rem;
+    padding-top: 0.05rem;
+}
+.right-4{
+    position: absolute;;
+    width: 5.67rem;
+    height: 1.55rem;
+    background-color: #ffffff;
+    border-radius: 0.1rem;
+    top: 10.15rem;
+    left: 1.58rem;font-size: 0.22rem;
+    letter-spacing: 0.02rem;
+    color: #ffffff;
+    padding-left: 0.28rem;
+    padding-top: 0.05rem;
+}
+.right-5{
+    position: absolute;;
+    width: 5.67rem;
+    height: 1.55rem;
+    background-color: #ffffff;
+    border-radius: 0.1rem;
+    top: 11.94rem;
+    left: 1.58rem;font-size: 0.22rem;
+    letter-spacing: 0.02rem;
+    color: #ffffff;
+    padding-left: 0.28rem;
+    padding-top: 0.05rem;
+}
+.person-one1{
+    width: 1.33rem;
+    height: 1.25rem;
+    background-color: #f5ff78;position: absolute;
+    top: 0.15rem;
+    left: 0.15rem;box-sizing: border-box;padding-bottom:0;
+}
+.person-one1 img {
+    height: 100%;
+    width: 1.33rem;
+    position: absolute;
+}
+.person-two1{
+    width: 2.5rem;
+    height: 0.22rem;
+    font-size:0.24rem;
+    background: rgba(15, 255, 255, 0);
+    color: #000000;
+    opacity: 0.6; position: absolute;
+    top:0.12rem;
+    left: 1.94rem;box-sizing: border-box;display: inline-block;}
+
+
+.person-connect1{
+    width: 3.84rem;
+    height: 0.08rem;
+    opacity: 0.6;position: absolute;
+    top:0.51rem;
+    left: 1.94rem;
+}
+.person-connect1 img{
+    width: auto;
+    height: 0.08rem;
+    position: absolute;
+
+}
+.right-onelast{
+    width: 2.92rem;
+    height: 0.73rem;
+    opacity: 0.6;position: absolute;
+    top:0.71rem;
+    left: 1.94rem;
+}
+.right-onelast img{
+    width: 2.92rem;
+    height: 0.73rem;
+    position: absolute;
+
+}
+
+.shopping{
+    width: 0.4rem;
+    height: 0.4rem;
+    /*background-color: #ff296f;*/
+    position: absolute;
+    top:1.05rem;
+    left: 5.06rem;
+
+}
+.shopping img{
+    width: 0.4rem;
+    height: 0.4rem;position: absolute;top:1.05rem;
+    left: 5.06rem;
+}
+
+.foot{
+    width: 7.5rem;
+    height: 0.99rem;
+    background-color: #ffffff;
+    position: absolute;
+    top:13.82rem;
+    left: 0;right: 0;
+}
+.foot img{
+    width: 2.84rem;height: 0.5rem;
+    background-color: #ffffff;
+    position: absolute;
+    top:0.24rem;
+    left:1.79rem;
+}
+.fot-1{
+    width: 0.48rem;
+    height: 0.46rem;
+    opacity: 0.6;position: absolute;
+    top:0.26rem;
+    left: 0.63rem;
+}
+.fot-1 img{
+    width: 0.48rem;
+    height: 0.46rem;
+    opacity: 0.9;position: absolute;
+    top:0rem;
+    left: 0rem;
+}
+.btn-1{
+    width: 1.23rem;
+    height: 0.43rem;
+    background-color: #ff197c;
+    opacity: 0.6;position: absolute;
+    top:0.27rem;
+    left: 5.85rem;
+    font-size: 0.24rem;
+    letter-spacing: 0.02rem;
+    color: #ffffff;border-radius: 0.5rem;
+    padding-left: 0.25rem;
+}
